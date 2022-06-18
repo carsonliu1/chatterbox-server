@@ -16,6 +16,7 @@
     "underscore": "^1.11.0"
   },
   "scripts": {
+    "dev": "nodemon server/basic-server.js",
     "postinstall": "curl -s https://raw.githubusercontent.com/reactorcore/pomander/master/bin/install | bash",
     "start:server": "node server/basic-server.js",
     "start:client": "npx live-server",
@@ -26,6 +27,7 @@
     "chai": "^4.2.0",
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
     "mocha": "^8.2.1",
+    "nodemon": "^2.0.16",
     "request": "^2.88.2"
   }
 }
